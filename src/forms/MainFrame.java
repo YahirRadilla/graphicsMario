@@ -41,6 +41,8 @@ public class MainFrame extends JFrame {
                 	BufferedImage bi = ImageIO.read(this.getClass().getResource("ground_texture.jpg"));
                 	TexturePaint textura = new TexturePaint(bi, new Rectangle(0,7,20,20));
                 	
+                	
+                	
                 	g2d.setPaint(textura);
                 	g2d.fillRect(50, 585, screenWidth, 60);
 				} catch (IOException ex) {
